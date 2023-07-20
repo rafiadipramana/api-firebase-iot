@@ -22,6 +22,7 @@ router.post("/", async function (req, res) {
       suhu: req.body.suhu,
       kelembapan_udara: req.body.kelembapan_udara,
       intensitas_cahaya: req.body.intensitas_cahaya,
+      kelembapan_tanah: req.body.kelembapan_tanah,
       catatan_waktu: waktuSekarang
     });
 
